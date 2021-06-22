@@ -1,0 +1,18 @@
+<div class="all">
+<h1>{{piada}}</h1>
+
+<div class="wrap">
+<button (click)="getJoke()">Random Joke!</button>
+<button (click)="getMoreJokes(valor.value)">Search Joke</button>
+
+<br>
+<input type="text" #valor>
+</div>
+<div class="jokes">
+<div *ngFor="let item of piadas.result">
+<h3>{{item.value}}</h3>
+</div>
+
+</div>
+
+</div>

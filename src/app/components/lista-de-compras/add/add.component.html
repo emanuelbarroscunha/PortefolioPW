@@ -1,0 +1,21 @@
+
+<div class="mark">
+  <h3>Add Product</h3>
+  <div class="center">
+    <form>
+      <div class="inputbox">
+        <input type="text" required="required" #nome>
+        <span>Name </span>
+      </div>
+      <div class="inputbox">
+        <input type="text" required="required" #preco>
+        <span>Price</span>
+      </div>
+    </form>
+
+  </div>
+<button (click)="AdicionarLista(nome.value, preco.value)" class="pushable" >
+  <span class="front">ADD</span>
+</button>
+
+</div>

@@ -1,0 +1,23 @@
+
+<body>
+  <div class="inputs">
+    <h1>Yo Click the buttons</h1>
+    <input #refInput type="text" [style.background]="color" (mouseenter)='changeColor("red")' (focus)='changeColor("pink")'
+    (blur)='changeColor("grey")' (input)='changeColor("green")' (copy)='changeColor("yellow")'>
+  </div>
+
+  <div class="events">
+    <button (click)="rotateThis(refInput)" class="pushable">
+      <span class="front">Rotate</span>
+    </button>
+    <button (click)="increaseThis(refInput)" class="pushable">
+      <span class="front">Increase</span>
+    </button>
+    <button (click)="decreaseThis(refInput)" class="pushable">
+      <span class="front">Decrease</span>
+    </button>
+    <button (click)="translateThis(refInput)" class="pushable">
+      <span class="front">Translate</span>
+    </button>
+  </div>
+</body>

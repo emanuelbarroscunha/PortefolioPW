@@ -1,0 +1,63 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+
+body{
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans';
+  margin-top: 130px;
+  margin-left: 50px;
+
+}
+
+
+button{
+  padding: 8px;
+  margin: 20px 20px 0px 0px;
+}
+
+input{
+  padding: 3px;
+  margin: 20px 20px 0px 0px;
+}
+
+.pushable {
+  background: rgba(255, 255, 255, 0); /*background: #1f6180;*/
+  border-radius: 2px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.front {
+  display: block;
+  padding: 12px 38px;
+  border-radius: 2px;
+  font-size: 16px;
+  background: #ff5039;
+  color: white;
+  transform: translateY(-6px);
+}
+
+.front:hover{background:#78c3e6; transition: 2s;}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+
+.mark{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.mark2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -40px;
+}
+
+

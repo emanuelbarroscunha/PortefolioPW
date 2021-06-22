@@ -1,0 +1,57 @@
+.comprados{
+  text-decoration: line-through;
+}
+
+h3{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px auto;
+  max-width: 750px;
+  margin-bottom: 30px;
+}
+
+h3:before{
+  background-color: #003147;
+  display: block;
+  width: 240px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  left: 200px;
+  top: 50%;
+}
+.front:hover{background:#78c3e6; transition: 2s;}
+h3:after{
+  background-color: #003147;
+  display: block;
+  width: 240px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  right: 200px;
+  top: 50%;
+}
+
+.pushable {
+  background: #fff;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.front {
+  display: block;
+  padding: 8px 30px;
+  border-radius: 12px;
+  font-size: 12px;
+  background: #ff5039;
+  color: white;
+  transform: translateY(-5px);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}

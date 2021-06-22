@@ -1,0 +1,15 @@
+<body>
+  <div class="mark">
+    <h1>Welcome to the Shop</h1>
+    <button [routerLink]="['/listaDeCompras/add']" routerLinkActive="router-link-active" class="pushable">
+      <span class="front">ADD</span>
+    </button>
+    <button [routerLink]="['/listaDeCompras/buy']" routerLinkActive="router-link-active" class="pushable">
+      <span class="front">BUY</span>
+    </button>
+  </div>
+  <div class="mark2">
+    <router-outlet></router-outlet>
+  </div>
+</body>
+

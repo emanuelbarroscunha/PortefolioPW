@@ -1,0 +1,86 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+
+body {
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  width: calc(100vw - (100vw - 100%));
+  height: auto;
+  margin-left: 12%;
+}
+
+
+.inputs{
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.inputs input {
+  transition: all 400ms ease;
+  margin-top: 60px;
+  margin-left: 50px;
+
+  border: 5px solid white;
+    -webkit-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    padding: 15px;
+
+    margin: 0 0 10px 0;
+}
+
+.events{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 700px;
+  margin-top: -50px;
+}
+
+.pushable {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 2px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+
+  margin-top: 20px;
+
+ 
+}
+.front:hover{background:#75d8e9; transition: 2s;}
+
+h1{
+  text-transform: uppercase;
+}
+.front {
+  display: block;
+  padding: 12px 38px;
+  border-radius: 2px;
+  font-size: 16px;
+  background: #ff5039;
+  color: white;
+  transform: translateY(-6px);
+}
+
+
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+
+.rotator {
+  transform: rotate(360deg);
+}
+
+.translator {
+  transform: translate(500px, 0px);
+}

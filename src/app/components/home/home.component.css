@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+
+
+h4{
+  color: rgb(199, 199, 199);
+  margin-left: 5px;
+  text-align: center;
+
+}
+
+
+.all{
+
+  font-family: 'Open Sans';
+  margin: auto;
+  width: 80%;
+  border: 3px solid rgba(0, 128, 0, 0);
+  padding: 10px;
+ }
+
+ .wrap{
+  margin-top: 100px;
+  display: flex;
+  border: 3px solid rgba(236, 35, 0, 0);
+  justify-content:center;
+
+ }
+
+ .wrap2{
+  border: 3px solid rgba(0, 16, 236, 0);
+  width: 33.333333%;
+  height: 100%;
+
+ }
+ .wrap3{
+  border: 3px solid rgba(255, 2, 255, 0);
+  width: 33.333333%;
+  height: 100%;
+  margin-bottom:-50%;
+ }
+ .wrap4{
+  border: 3px solid rgba(255, 0, 0, 0);
+  width: 33.333333%;
+  height: 100%;
+  margin-bottom:-50%;
+ }
+
+
+ .p{
+  display: flex;
+  text-align: center;
+  width: 100rem;
+  height: 25rem;
+  color: rgb(141, 141, 141);
+  border: 3px solid rgba(145, 236, 0, 0);
+  transition: 3s;
+ }
+ p:hover{
+  color: white;
+  transition:1s;
+
+}
+p{
+   margin-top: 0;
+   font-size: 20.5em;
+   font-weight:600;
+   transition: 3s;
+
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+
+.text{
+  margin-top: 0px;
+  z-index: -2;
+  pointer-events: none;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  transition: 3s;
+
+}
+.text2{
+  display: flex;
+  flex-direction: row;
+  margin-left: -1850px;
+}
+
+.left , .right {
+
+  position : absolute;
+  font-family: 'Open Sans';
+  color: rgb(141, 141, 141);
+  font-size: 100px;
+  cursor: cell;
+  z-index: -1;
+  margin-top: 125px;
+}
+.left
+{
+  margin-left: -1500px;
+
+}
+
+.right
+{
+  margin-right: -1500px;
+
+
+
+}
+
+.p:hover p
+{ color: #f6f6f6;
+
+}
